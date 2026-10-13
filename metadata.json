@@ -1,0 +1,8 @@
+{
+  "name": "Cafe Trieste | Artisan Steaks & Bistro Islamabad",
+  "description": "Premier steakhouse and bistro in DHA Phase 1 Business Bay, Islamabad. Renowned for prime mushroom steaks, Italian steaks, artisan coffee, and warm dining experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
