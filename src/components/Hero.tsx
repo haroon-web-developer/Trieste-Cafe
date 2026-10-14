@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
       {/* Real Cafe Trieste Storefront Photo with Full Height & Clear Visibility */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/image_7daa5fe7.jpg"
+          src="/images/image_7daa5fe7.jpg"
           alt="Cafe Trieste Restaurant & Artisan Bistro Exterior Storefront in DHA Phase 1 Islamabad"
           className="w-full h-full object-cover object-center lg:object-[center_18%] lg:translate-y-6 lg:scale-105 filter brightness-[0.92] contrast-[1.03] saturate-105 transition-transform duration-300"
           referrerPolicy="no-referrer"
