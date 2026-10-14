@@ -23,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
         />
         {/* Soft, low-opacity scrims to keep the entire building storefront crisp and visible */}
         <div className="absolute inset-0 bg-black/15" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0c0d10] via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-[#0c0d10] via-black/20 to-transparent" />
       </div>
 
       {/* Hero Content positioned elegantly in the lower zone to leave the T TRIESTE facade clear */}
