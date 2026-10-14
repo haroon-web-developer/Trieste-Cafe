@@ -1,3 +1,20 @@
+// Static asset imports bundled directly by Vite into production dist
+import mushroomSteakImg from '../assets/images/trieste_mushroom_steak_1791360884906.jpg';
+import italianSteakImg from '../assets/images/trieste_italian_steak_1791360901248.jpg';
+import pepperSteakImg from '../assets/images/trieste_pepper_steak_1791367091481.jpg';
+import moroccanSteakImg from '../assets/images/trieste_moroccan_steak_1791367108024.jpg';
+import bogoDealImg from '../assets/images/trieste_bogo_deal_1791367009696.jpg';
+import chickenSteakImg from '../assets/images/trieste_chicken_steak_1791367047199.jpg';
+import jalapenoChickenImg from '../assets/images/trieste_jalapeno_chicken_1791367118191.jpg';
+import executiveLunchImg from '../assets/images/trieste_executive_lunch_1791367022681.jpg';
+import dateNightImg from '../assets/images/trieste_date_night_1791367035814.jpg';
+import loadedNachosImg from '../assets/images/trieste_loaded_nachos_1791367057449.jpg';
+import buffaloWingsImg from '../assets/images/trieste_buffalo_wings_1791367127249.jpg';
+import truffleFriesImg from '../assets/images/trieste_truffle_fries_1791367078620.jpg';
+import classicBurgerImg from '../assets/images/trieste_classic_burger_1791367067156.jpg';
+import cappuccinoImg from '../assets/images/trieste_cappuccino_cafe_1791360915726.jpg';
+import mintCoolerImg from '../assets/images/trieste_mint_cooler_1791367137999.jpg';
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -66,7 +83,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Tender prime beef cut grilled over open flames, smothered in rich wild cremini & button mushroom peppercorn cream sauce. Served with roasted rosemary baby potatoes and char-grilled garden vegetables.',
     popular: true,
     bestseller: true,
-    image: '/images/trieste_mushroom_steak_1791360884906.jpg',
+    image: mushroomSteakImg,
     includesSides: true,
     prepTime: '20-25 mins',
   },
@@ -77,7 +94,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 2550,
     description: 'Juicy prime beef tenderloin seared to perfection, finished with shaved aged parmesan, sun-dried tomatoes, aromatic rosemary balsamic drizzle, and fresh herb butter.',
     popular: true,
-    image: '/images/trieste_italian_steak_1791360901248.jpg',
+    image: italianSteakImg,
     includesSides: true,
     prepTime: '20-25 mins',
   },
@@ -89,7 +106,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Charred beef fillet glazed in cracked Tellicherry black peppercorn demi-glace with caramelized shallots and velvety roasted garlic baby potatoes.',
     popular: true,
     spicyLevel: 1,
-    image: '/images/trieste_pepper_steak_1791367091481.jpg',
+    image: pepperSteakImg,
     includesSides: true,
     prepTime: '20-25 mins',
   },
@@ -101,7 +118,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Prime beef medallion infused with aromatic North African spices, finished with fiery sambal cream, caramelized shallots, and herb-spiced wedges.',
     popular: false,
     spicyLevel: 2,
-    image: '/images/trieste_moroccan_steak_1791367108024.jpg',
+    image: moroccanSteakImg,
     includesSides: true,
     prepTime: '20-25 mins',
   },
@@ -112,7 +129,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 2950,
     description: 'Two prime medallions on a sizzling platter: one draped in velvety mushroom sauce and one in zesty cracked pepper sauce, served with twin sides.',
     popular: true,
-    image: '/images/trieste_bogo_deal_1791367009696.jpg',
+    image: bogoDealImg,
     includesSides: true,
     prepTime: '25-30 mins',
   },
@@ -126,7 +143,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Succulent grilled chicken breast cutlets simmered in garlic herb mushroom sauce, served with roasted seasonal vegetables and mashed potatoes.',
     popular: true,
     bestseller: true,
-    image: '/images/trieste_chicken_steak_1791367047199.jpg',
+    image: chickenSteakImg,
     includesSides: true,
     prepTime: '15-20 mins',
   },
@@ -137,7 +154,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 1890,
     description: 'Golden char-broiled chicken breasts infused with fresh tarragon leaves, white mustard emulsion, steamed buttered greens, and mashed potatoes.',
     popular: false,
-    image: '/images/trieste_chicken_steak_1791367047199.jpg',
+    image: chickenSteakImg,
     includesSides: true,
     prepTime: '15-20 mins',
   },
@@ -149,7 +166,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Grilled spiced chicken fillet topped with charred jalapeno salsa, melted Monterey Jack cheese, and crispy onion straws.',
     popular: true,
     spicyLevel: 2,
-    image: '/images/trieste_jalapeno_chicken_1791367118191.jpg',
+    image: jalapenoChickenImg,
     includesSides: true,
     prepTime: '15-20 mins',
   },
@@ -160,7 +177,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 1980,
     description: 'Tender chicken breast pocket filled with baby spinach, feta and cream cheese, baked crisp and drizzled with lemon butter emulsion.',
     popular: true,
-    image: '/images/trieste_chicken_steak_1791367047199.jpg',
+    image: chickenSteakImg,
     includesSides: true,
     prepTime: '20-25 mins',
   },
@@ -174,7 +191,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Special evening feature: Order any 2 Prime Beef Steaks (Mushroom or Italian) with double sides and sauces at an exclusive dining bundle price.',
     popular: true,
     bestseller: true,
-    image: '/images/trieste_bogo_deal_1791367009696.jpg',
+    image: bogoDealImg,
     includesSides: true,
     prepTime: '25 mins',
   },
@@ -185,7 +202,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 1990,
     description: 'Available 11 AM - 4 PM. Choice of Steak Sandwich or Classic Burger + Hand-Cut French Fries + Chilled Mint Margarita or Artisan Cappuccino.',
     popular: true,
-    image: '/images/trieste_executive_lunch_1791367022681.jpg',
+    image: executiveLunchImg,
     includesSides: true,
     prepTime: '15 mins',
   },
@@ -196,7 +213,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 5490,
     description: 'Complete romantic dining set: 1 Loaded Gourmet Nacho Starter + 2 Prime Beef Steaks of choice with sides + 2 Artisan Specialty Drinks.',
     popular: true,
-    image: '/images/trieste_date_night_1791367035814.jpg',
+    image: dateNightImg,
     includesSides: true,
     prepTime: '25 mins',
   },
@@ -211,7 +228,7 @@ export const MENU_ITEMS: MenuItem[] = [
     popular: true,
     bestseller: true,
     spicyLevel: 1,
-    image: '/images/trieste_loaded_nachos_1791367057449.jpg',
+    image: loadedNachosImg,
     prepTime: '10-15 mins',
   },
   {
@@ -222,7 +239,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Double-dredged crispy wings tossed in cayenne chili glaze, served with creamy blue cheese dipping sauce and crisp celery sticks.',
     popular: true,
     spicyLevel: 2,
-    image: '/images/trieste_buffalo_wings_1791367127249.jpg',
+    image: buffaloWingsImg,
     prepTime: '12-15 mins',
   },
   {
@@ -232,7 +249,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 790,
     description: 'Hand-cut russet potatoes tossed in fragrant white truffle oil, Himalayan sea salt, finely chopped Italian parsley, and aged Grana Padano.',
     popular: true,
-    image: '/images/trieste_truffle_fries_1791367078620.jpg',
+    image: truffleFriesImg,
     prepTime: '10 mins',
   },
 
@@ -245,7 +262,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: '200g smashed prime beef patty, melted Wisconsin cheddar, balsamic caramelized onions, dill pickles, and house secret sauce on butter-toasted brioche. Served with hand-cut fries.',
     popular: true,
     bestseller: true,
-    image: '/images/trieste_classic_burger_1791367067156.jpg',
+    image: classicBurgerImg,
     includesSides: true,
     prepTime: '15 mins',
   },
@@ -255,7 +272,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'burgers',
     price: 1450,
     description: 'Slow-seared prime beef tenderloin strips, smoky barbecue glaze, melted swiss cheese, and crunchy purple cabbage slaw on toasted sourdough with fries.',
-    image: '/images/trieste_executive_lunch_1791367022681.jpg',
+    image: executiveLunchImg,
     includesSides: true,
     prepTime: '15 mins',
   },
@@ -266,7 +283,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 1290,
     description: '24-hour buttermilk soaked golden fried chicken thigh, spicy garlic aioli, sweet dill pickles, and crisp lettuce on artisan brioche with fries.',
     popular: true,
-    image: '/images/trieste_classic_burger_1791367067156.jpg',
+    image: classicBurgerImg,
     includesSides: true,
     prepTime: '12-15 mins',
   },
@@ -279,7 +296,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 650,
     description: 'Freshly ground double ristretto shot from premium imported Arabica beans, silky microfoam, and hand-poured tulip latte art.',
     popular: true,
-    image: '/images/trieste_cappuccino_cafe_1791360915726.jpg',
+    image: cappuccinoImg,
     prepTime: '5 mins',
   },
   {
@@ -289,7 +306,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 550,
     description: 'Fresh organic garden mint leaves blended with zesty Persian lime juice, sparkling soda, and Himalayan pink salt over crushed ice.',
     popular: true,
-    image: '/images/trieste_mint_cooler_1791367137999.jpg',
+    image: mintCoolerImg,
     prepTime: '5 mins',
   },
   {
@@ -299,7 +316,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 750,
     description: 'Espresso shaken over sweet condensed cream, fresh whole milk, served over crystal clear ice blocks in a chilled tumbler.',
     popular: true,
-    image: '/images/trieste_cappuccino_cafe_1791360915726.jpg',
+    image: cappuccinoImg,
     prepTime: '5 mins',
   },
 ];
